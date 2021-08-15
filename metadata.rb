@@ -12,4 +12,4 @@ source_url 'https://github.com/codenamephp/chef.cookbook.users'
 
 supports 'debian'
 
-depends 'users', '~> 8'
+depends 'users', '~> 8.0'
