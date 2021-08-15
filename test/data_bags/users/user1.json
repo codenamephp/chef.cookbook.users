@@ -1,0 +1,8 @@
+{
+  "id": "user1",
+  "groups": [
+    "chef",
+    "sudo",
+    "sysadmin"
+  ]
+}

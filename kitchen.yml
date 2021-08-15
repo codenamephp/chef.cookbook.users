@@ -13,8 +13,9 @@ platforms:
 
 suites:
   - name: default
+    data_bags_path: "test/data_bags"
     run_list:
-      - recipe[%%COOKBOOK_NAME%%::default]
+      - recipe[test::default]
     verifier:
       inspec_tests:
         - test/smoke/default
