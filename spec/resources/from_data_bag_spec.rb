@@ -64,7 +64,7 @@ describe 'codenamephp_users_from_data_bag' do
       expect(chef_run).to_not create_users_manage('sudo')
       expect(chef_run).to_not create_users_manage('sysadmin')
 
-      expect(chef_run).to write_log('Databag was not found').with(level: :debug)
+      expect(chef_run).to write_log("Databag 'users' with query '*:*' was not found").with(level: :debug)
     end
   end
 end
