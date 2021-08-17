@@ -13,6 +13,10 @@ platforms:
 
 suites:
   - name: default
+    # https://github.com/apalmblad/ruby-shadow/issues/26
+    #lifecycle:
+    #  pre_converge:
+    #  - remote: apt install -y apt-transport-https build-essential
     data_bags_path: "test/data_bags"
     run_list:
       - recipe[test::default]

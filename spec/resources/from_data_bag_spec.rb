@@ -40,6 +40,10 @@ describe 'codenamephp_users_from_data_bag' do
       expect { chef_run }.to_not raise_error
     end
 
+    it 'installs ruby_shadow gem' do
+      expect(chef_run).to install_chef_gem('ruby-shadow')
+    end
+
     it 'creates the groups' do
       expect(chef_run).to create_group('chef')
       expect(chef_run).to create_group('sudo')
