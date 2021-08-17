@@ -5,6 +5,8 @@ property :data_bag_name, String, default: 'users', description: 'The name of the
 property :data_bag_query, String, default: '*:*', description: 'The query that is used when searching the databag'
 
 action :create do
+  chef_gem 'ruby-shadow' # needed for password support
+
   begin
     users_from_databag = search(new_resource.data_bag_name, new_resource.data_bag_query)
 
