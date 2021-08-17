@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.2) (2021-08-17)
+
+[Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.1...1.0.2)
+
+**Fixed bugs:**
+
+- Remove the chef\_gem ruby-shadow again since ruby-shadow fails to build on ruby 3.0 [\#5](https://github.com/codenamephp/chef.cookbook.users/pull/5) ([bastianschwarz](https://github.com/bastianschwarz))
+
 ## [1.0.1](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.1) (2021-08-17)
 
 [Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.0...1.0.1)
