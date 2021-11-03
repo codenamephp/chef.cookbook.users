@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/codenamephp/chef.cookbook.users/tree/HEAD)
+
+[Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.2...HEAD)
+
+**Merged pull requests:**
+
+- Bump bobheadxi/deployments from 0.6.0 to 0.6.1 [\#7](https://github.com/codenamephp/chef.cookbook.users/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.2](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.2) (2021-08-17)
 
 [Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.1...1.0.2)
