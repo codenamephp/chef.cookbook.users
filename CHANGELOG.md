@@ -1,16 +1,22 @@
 # Changelog
 
-## [Unreleased](https://github.com/codenamephp/chef.cookbook.users/tree/HEAD)
+## [1.0.3](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.3) (2021-12-29)
 
-[Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.2...HEAD)
+[Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.2...1.0.3)
 
 **Merged pull requests:**
 
-- Bump bobheadxi/deployments from 0.6.0 to 0.6.1 [\#7](https://github.com/codenamephp/chef.cookbook.users/pull/7) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump bobheadxi/deployments from 0.6.1 to 0.6.2 [\#10](https://github.com/codenamephp/chef.cookbook.users/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump bobheadxi/deployments from 0.6.0 to 0.6.1 [\#9](https://github.com/codenamephp/chef.cookbook.users/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump tubone24/update\_release from 1.2.0 to 1.3.1 [\#8](https://github.com/codenamephp/chef.cookbook.users/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.2](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.2) (2021-08-17)
 
 [Full Changelog](https://github.com/codenamephp/chef.cookbook.users/compare/1.0.1...1.0.2)
+
+**Fixed bugs:**
+
+- Remove the chef\_gem ruby-shadow again since ruby-shadow fails to build on ruby 3.0 [\#5](https://github.com/codenamephp/chef.cookbook.users/pull/5) ([bastianschwarz](https://github.com/bastianschwarz))
 
 ## [1.0.1](https://github.com/codenamephp/chef.cookbook.users/tree/1.0.1) (2021-08-17)
 
